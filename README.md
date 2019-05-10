@@ -30,22 +30,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+The biggest difference is that .map returns a new array and .forEach does not. This means you can store the new array using .map.
+
 2. What is the difference between a function and a method?
+
+A method is a function within an object. Methods are normally used like this: someObject.someMethod(). Functions are mainly used like this: someFunction(arg).
 
 3. What is closure?
 
+Closure is where an inner function has access to the outer function’s variables. This means functions can access variables outside its scope (curly brackets). So functions can reach outside towards the global scope, but you can't reach deeper into the local scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+Implicit - when we call a method on an object, the object to the left of the dot is what "this" refers to. 
+
+Explicit - when we use .call, .apply, .bind to set the context of "this" in our current object to another object.
+
+new binding - when we use the new keyword, an object is being created and returned within the constructor function. "this" in this context refers to the object being created and returned.
+
+window binding - in global scope, "this" refers to the global window/console object.
+
 5. Why do we need super() in an extended class?
+
+So that our child class can inherit the properties and prototype methods of its parent.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [ x] Create a forked copy of this project.
+- [ x] Add PM as collaborator on Github.
+- [ x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [ x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
