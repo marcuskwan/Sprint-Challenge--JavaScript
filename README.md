@@ -105,9 +105,6 @@ There are a few stretch problems found throughout the files, don't work on them 
 
 ## Questions
 
-- Why doesn't commas work in the request 2 for arrays?
-- why is everything a string in request 1 foreach objects ?
-- why in map request 2 does it only return name value, not everything in the object?
 - do I understand closure enough? You can reach for variables outside your scope, but only access variables within when you call a function that returns a variable
 - in prototype why did it say width is not defined, not length when removing this keyword
 - did I use this correctly in my prototype and classes?
