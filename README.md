@@ -64,8 +64,8 @@ Follow these steps to set up and work on your project:
 - [ x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ x] You are now ready to build this project with your preferred IDE
-- [ -] Implement the project on your Branch, committing changes regularly.
-- [ -] Push commits: git push origin `<firstName-lastName>`.
+- [ x] Implement the project on your Branch, committing changes regularly.
+- [ x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
@@ -82,19 +82,19 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [ x] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [ x] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [x ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [ x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -106,4 +106,8 @@ There are a few stretch problems found throughout the files, don't work on them 
 ## Questions
 
 - Why doesn't commas work in the request 2 for arrays?
-- why is everything a string in request 1 foreach objects 
+- why is everything a string in request 1 foreach objects ?
+- why in map request 2 does it only return name value, not everything in the object?
+- do I understand closure enough? You can reach for variables outside your scope, but only access variables within when you call a function that returns a variable
+- in prototype why did it say width is not defined, not length when removing this keyword
+- did I use this correctly in my prototype and classes?
